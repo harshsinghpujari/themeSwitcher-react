@@ -1,12 +1,44 @@
-# React + Vite
+# Theme Switcher (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application to demonstrate theme switching (light/dark mode) using Tailwind CSS and Context API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React functional components
+- Context API for theme state management
+- Tailwind CSS for styling
+- Dark mode and light mode toggling
+- Built with Vite
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/themeswitcher.git
+```
+2. Install dependencies:
+
+```bash
+npm install
+
+```
+3. Run the development server:
+```bash
+npm run dev
+```
+
+npm run dev
+
+Usage
+
+    Toggle dark mode by adding or removing the dark class on the <html> element
+
+    Customize theme colors via Tailwind
+
+License
+
+This project is licensed under the MIT License.
+
+Author : 
+Himanshu Singh
